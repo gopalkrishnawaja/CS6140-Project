@@ -5,8 +5,9 @@
 │   └── Phish_Features_Final.csv
 ├── ML_Project_Report.pdf
 ├── ModelWeights
-│   ├── model_embb.h5
-│   └── model_pretrained_embb.h5
+│   ├── about.txt
+│   ├── model_embb.h5.zip
+│   └── model_pretrained_embb.h5.zip
 ├── Notebooks
 │   ├── URL_Classification.ipynb
 │   └── URL_Feature_Extraction.ipynb
@@ -26,4 +27,4 @@
 ├── project_tree.txt
 └── requirements.txt
 
-6 directories, 21 files
+6 directories, 22 files
