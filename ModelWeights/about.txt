@@ -1,0 +1,1 @@
+This is just a folder that contains the model weights for the neural network which can be loaded in the architecture and be used to replicate the results
