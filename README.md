@@ -8,13 +8,10 @@ This project focuses on the classification of URLs into three categories: Safe, 
 
 The project is organized into the following directories:
 
--
-The project is organized into the following directories:
-- 
 - **RawDatasets**: Contains the raw datasets used in the project along with their sources.
-  - **benignDMOZ.csv**: [DMOZ Open Directory Project]([https://dmoz-odp.org](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OMV93V))
-  - **malwareOnline.csv**: [Online Malicious URL Dataset](https://urlhaus.abuse.ch/browse/)
-  - **verified_phishing_online.csv**: [Verified Phishing URLs Dataset](https://phishtank.org)
+  - benignDMOZ.csv: [DMOZ Open Directory Project]([https://dmoz-odp.org](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OMV93V))
+  - malwareOnline.csv: [Online Malicious URL Dataset](https://urlhaus.abuse.ch/browse/)
+  - verified_phishing_online.csv: [Verified Phishing URLs Dataset](https://phishtank.org)
 
 - **ExtractedFeaturesDataset**: Contains CSV files with manually extracted features for benign, malware, and phishing URLs.
   - Benign_Features_Final.csv
@@ -22,8 +19,8 @@ The project is organized into the following directories:
   - Phish_Features_Final.csv
 
 - **Notebooks**: Jupyter notebooks for different aspects of the project.
-  - **URL_Classification.ipynb**: Notebook for training machine learning models and evaluating their performance.
-  - **URL_Feature_Extraction.ipynb**: Notebook for extracting features from the raw datasets.
+  - URL_Classification.ipynb: Notebook for training machine learning models and evaluating their performance.
+  - URL_Feature_Extraction.ipynb: Notebook for extracting features from the raw datasets.
 
 - **ModelWeights**: Directory containing pre-trained model weights in zip format.
   - about.txt: Information about the model weights.
