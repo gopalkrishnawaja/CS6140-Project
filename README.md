@@ -8,11 +8,14 @@ This project focuses on the classification of URLs into three categories: Safe, 
 
 The project is organized into the following directories:
 
-- **RawDatasets**: Contains the raw datasets used in the project.
-  - benignDMOZ.csv
-  - malwareOnline.csv
-  - verified_phishing_online.csv
-    
+-
+The project is organized into the following directories:
+- 
+- **RawDatasets**: Contains the raw datasets used in the project along with their sources.
+  - **benignDMOZ.csv**: [DMOZ Open Directory Project](https://dmoz-odp.org)
+  - **malwareOnline.csv**: [Online Malicious URL Dataset](provide_link)
+  - **verified_phishing_online.csv**: [Verified Phishing URLs Dataset](provide_link)
+
 - **ExtractedFeaturesDataset**: Contains CSV files with manually extracted features for benign, malware, and phishing URLs.
   - Benign_Features_Final.csv
   - Malware_Features_Final.csv
@@ -22,7 +25,25 @@ The project is organized into the following directories:
   - **URL_Classification.ipynb**: Notebook for training machine learning models and evaluating their performance.
   - **URL_Feature_Extraction.ipynb**: Notebook for extracting features from the raw datasets.
 
+- **ModelWeights**: Directory containing pre-trained model weights in zip format.
+  - about.txt: Information about the model weights.
+  - model_embb.h5.zip: Zip file containing model weights.
+  - model_pretrained_embb.h5.zip: Zip file containing pre-trained model weights.
+
+- **Plots**: Directory containing various plots related to feature analysis.
+  - Box Plot for Domain_Shannon_Entropy.png
+  - Box Plot for digitToLetter_ratio.png
+  - Box_Plot for Path_Shannon_Entropy.png
+  - Box_Plot for URL_Shannon_Entropy.png
+  - Box_Plot for getLength.png
+  - Box_Plot for numDigit.png
+  - Box_Plot for numsubdomain.png
+
 - **ML_Project_Report.pdf**: The comprehensive report detailing the project's motivation, methodology, experimental setup, results, and conclusion.
+
+- **project_tree.txt**: A text file providing the project directory tree structure.
+
+- **requirements.txt**: File containing project dependencies for reproducibility.
 
 - **README.md**: This file, providing an overview of the project, its structure, and instructions for running and reproducing the results.
 
