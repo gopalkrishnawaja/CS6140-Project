@@ -1,0 +1,29 @@
+.
+├── ExtractedFeaturesDataset
+│   ├── Benign_Features_Final.csv
+│   ├── Malware_Features_Final.csv
+│   └── Phish_Features_Final.csv
+├── ML_Project_Report.pdf
+├── ModelWeights
+│   ├── model_embb.h5
+│   └── model_pretrained_embb.h5
+├── Notebooks
+│   ├── URL_Classification.ipynb
+│   └── URL_Feature_Extraction.ipynb
+├── Plots
+│   ├── Box Plot for Domain_Shannon_Entropy.png
+│   ├── Box Plot for digitToLetter_ratio.png
+│   ├── Box_Plot_Path_Shannon_Entropy.png
+│   ├── Box_Plot_URL_Shannon_Entropy.png
+│   ├── Box_Plot_getLength.png
+│   ├── Box_Plot_numDigit.png
+│   └── Box_Plot_numsubdomain.png
+├── README.md
+├── RawDatasets
+│   ├── benignDMOZ.csv
+│   ├── malwareOnline.csv
+│   └── verified_phishing_online.csv
+├── project_tree.txt
+└── requirements.txt
+
+6 directories, 21 files
