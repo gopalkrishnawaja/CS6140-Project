@@ -12,9 +12,9 @@ The project is organized into the following directories:
 The project is organized into the following directories:
 - 
 - **RawDatasets**: Contains the raw datasets used in the project along with their sources.
-  - **benignDMOZ.csv**: [DMOZ Open Directory Project](https://dmoz-odp.org)
-  - **malwareOnline.csv**: [Online Malicious URL Dataset](provide_link)
-  - **verified_phishing_online.csv**: [Verified Phishing URLs Dataset](provide_link)
+  - **benignDMOZ.csv**: [DMOZ Open Directory Project]([https://dmoz-odp.org](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OMV93V))
+  - **malwareOnline.csv**: [Online Malicious URL Dataset](https://urlhaus.abuse.ch/browse/)
+  - **verified_phishing_online.csv**: [Verified Phishing URLs Dataset](https://phishtank.org)
 
 - **ExtractedFeaturesDataset**: Contains CSV files with manually extracted features for benign, malware, and phishing URLs.
   - Benign_Features_Final.csv
