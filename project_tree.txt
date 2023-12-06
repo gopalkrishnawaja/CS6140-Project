@@ -3,22 +3,28 @@
 │   ├── Benign_Features_Final.csv
 │   ├── Malware_Features_Final.csv
 │   └── Phish_Features_Final.csv
+├── ML_Project_Presentation.pdf
 ├── ML_Project_Report.pdf
 ├── ModelWeights
 │   ├── about.txt
+│   ├── model_embb.h5 5.09.08 PM
 │   ├── model_embb.h5.zip
+│   ├── model_pretrained_embb.h5 5.09.08 PM
 │   └── model_pretrained_embb.h5.zip
 ├── Notebooks
 │   ├── URL_Classification.ipynb
 │   └── URL_Feature_Extraction.ipynb
-├── Plots
+├── Plots_n_Images
 │   ├── Box Plot for Domain_Shannon_Entropy.png
 │   ├── Box Plot for digitToLetter_ratio.png
 │   ├── Box_Plot_Path_Shannon_Entropy.png
 │   ├── Box_Plot_URL_Shannon_Entropy.png
 │   ├── Box_Plot_getLength.png
 │   ├── Box_Plot_numDigit.png
-│   └── Box_Plot_numsubdomain.png
+│   ├── Box_Plot_numsubdomain.png
+│   ├── DecisionTree.png
+│   ├── RandomForest.png
+│   └── XgBoost.png
 ├── README.md
 ├── RawDatasets
 │   ├── benignDMOZ.csv
@@ -27,4 +33,4 @@
 ├── project_tree.txt
 └── requirements.txt
 
-6 directories, 22 files
+6 directories, 28 files

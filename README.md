@@ -27,7 +27,7 @@ The project is organized into the following directories:
   - model_embb.h5.zip: Zip file containing model weights.
   - model_pretrained_embb.h5.zip: Zip file containing pre-trained model weights.
 
-- **Plots**: Directory containing various plots related to feature analysis.
+- **Plots_n_Images**: Directory containing various plots related to feature analysis.
   - Box Plot for Domain_Shannon_Entropy.png
   - Box Plot for digitToLetter_ratio.png
   - Box_Plot for Path_Shannon_Entropy.png
@@ -35,7 +35,12 @@ The project is organized into the following directories:
   - Box_Plot for getLength.png
   - Box_Plot for numDigit.png
   - Box_Plot for numsubdomain.png
+  - Feature importance for DecisionTree.png
+  - Feature importance for RandomForest.png
+  - Feature importance for XgBoost.png
 
+- **ML_Project_Presentation.pdf**: Project Presentation.
+- 
 - **ML_Project_Report.pdf**: The comprehensive report detailing the project's motivation, methodology, experimental setup, results, and conclusion.
 
 - **project_tree.txt**: A text file providing the project directory tree structure.
