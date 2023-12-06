@@ -55,16 +55,14 @@ The project is organized into the following directories:
 
 The results for best parameters for each of the models as the result of grid search using 10 fold cross validation are as follows :- 
 
-+------------------------+---------------------------+
-| Model                  | Best Parameters           |
-+------------------------+---------------------------+
-| Logistic Regression    | C: 100                    |
-| Decision Tree          | max depth: 20              |
-| Random Forest          | max depth: 20, n estimators: 200 |
-| SVM                    | C: 10, kernel: rbf        |
-| XG Boost               | max depth: 5, n estimators: 100 |
-| KNN                    | n neighbors: 3            |
-+------------------------+---------------------------+
+| Model                | Best Parameters                    |
+|----------------------|-----------------------------------|
+| Logistic Regression  | C: 100                            |
+| Decision Tree        | max depth: 20                      |
+| Random Forest        | max depth: 20, n estimators: 200   |
+| SVM                  | C: 10, kernel: rbf                 |
+| XG Boost             | max depth: 5, n estimators: 100    |
+| KNN                  | n neighbors: 3                    |
 
 The performace for the models is as follows : -
 
