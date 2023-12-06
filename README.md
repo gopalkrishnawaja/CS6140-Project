@@ -84,7 +84,7 @@ The performace for the models is as follows : -
 
 ## Future Work
 
-Future enhancements could involve exploring imbalance reduction techniques like SMOTE and Near Miss Algorithm, testing the model on different datasets, and conducting A/B testing for model validation.
+Future enhancements could involve exploring imbalance reduction techniques like SMOTE and Near Miss Algorithm, testing the model on different datasets, and conducting A/B testing for model validation. We could also look into exploration of advanced deep learning architectures like attention mechanisms, transformers, or graph neural networks for enhanced performance. Transfer learning techniques could be evaluated to leverage knowledge across domains, and domain adaptation methods can be explored. Dynamic URL analysis over time and real-time processing optimizations are other avenues for exploration. Privacy-preserving methods, collaborative learning for knowledge sharing while preserving privac, Cross-language URL classification, ethical considerations, and addressing biases for fair and responsible classification are essential aspects to explore in future research.
 
 ## References
 
