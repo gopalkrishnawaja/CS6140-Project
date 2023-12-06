@@ -40,7 +40,7 @@ The project is organized into the following directories:
   - Feature importance for XgBoost.png
 
 - **ML_Project_Presentation.pdf**: Project Presentation.
-- 
+
 - **ML_Project_Report.pdf**: The comprehensive report detailing the project's motivation, methodology, experimental setup, results, and conclusion.
 
 - **project_tree.txt**: A text file providing the project directory tree structure.
