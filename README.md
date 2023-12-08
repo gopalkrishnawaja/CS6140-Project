@@ -8,12 +8,12 @@ This project focuses on the classification of URLs into three categories: Safe, 
 
 The project is organized into the following directories:
 
-- **RawDatasets**: Contains the raw datasets used in the project along with their sources.
+- **RawDatasets**: Contains the raw datasets used in **URL_Feature_Extraction.ipynb** notebook along with their sources.
   - benignDMOZ.csv: [DMOZ Open Directory Project](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OMV93V)
   - malwareOnline.csv: [Online Malicious URL Dataset](https://urlhaus.abuse.ch/browse/)
   - verified_phishing_online.csv: [Verified Phishing URLs Dataset](https://phishtank.org)
 
-- **ExtractedFeaturesDataset**: Contains CSV files with manually extracted features for benign, malware, and phishing URLs.
+- **ExtractedFeaturesDataset**: Contains CSV files with manually extracted features for different URL classes.
   - Benign_Features_Final.csv
   - Malware_Features_Final.csv
   - Phish_Features_Final.csv
@@ -52,8 +52,12 @@ The project is organized into the following directories:
 ## Running the Notebooks
 
 1. Open the **URL_Feature_Extraction.ipynb** notebook to extract features from the raw datasets.
+   - Ensure required CSV files are present in RawDatasets folder.
    - Run the cells in sequence to generate the CSV files with extracted features.
-3. Open the **URL_Classification.ipynb** notebook to train machine learning models.
+   - Ensure CSV files are generated in ExtractedFeaturesDataset folder.
+     
+2. Open the **URL_Classification.ipynb** notebook to train machine learning models.
+   - Ensure required CSV files are present in ExtractedFeaturesDataset folder.
    - Follow the instructions in the notebook to load the extracted features and train the models.
 
 ## Results Summary
